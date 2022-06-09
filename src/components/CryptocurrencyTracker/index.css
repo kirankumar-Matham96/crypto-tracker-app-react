@@ -1,0 +1,33 @@
+.cryptocurrency-tracker-container {
+  min-height: 100vh;
+  padding: 16px;
+  font-family: 'Roboto';
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .cryptocurrency-tracker-container {
+    padding: 20px;
+  }
+}
+.main-heading {
+  color: #00e7ff;
+}
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 60px;
+  }
+}
+
+.crypto-image {
+  width: 100%;
+  margin-bottom: 26px;
+}
+@media (min-width: 768px) {
+  .crypto-image {
+    width: 800px;
+  }
+}

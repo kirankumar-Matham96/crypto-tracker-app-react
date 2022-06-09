@@ -1,0 +1,44 @@
+.crypto-item-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+@media (min-width: 768px) {
+  .crypto-item-container {
+    padding: 0 30px;
+  }
+}
+.crypto-type-container {
+  display: flex;
+  align-items: center;
+}
+
+.crypto-logo {
+  width: 22px;
+  margin-right: 8px;
+}
+@media (min-width: 768px) {
+  .crypto-logo {
+    width: 26px;
+    margin-right: 16px;
+  }
+}
+
+.crypto-name {
+  color: #fff;
+}
+
+.currency-values-container {
+  display: flex;
+  color: #fff;
+}
+
+.usd-value {
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  .usd-value {
+    margin-right: 16px;
+  }
+}
