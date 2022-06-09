@@ -11,9 +11,10 @@ class CryptocurrencyTracker extends Component {
   }
 
   getCryptoData = async () => {
-    const response = await fetch(
+    const initialResponse = await fetch(
       'https://apis.ccbp.in/crypto-currency-converter',
-    ).then(res => res.json())
+    )
+    const response = await initialResponse.json()
     this.setState({isLoading: false, cryptoCurrencyDataList: response})
   }
 
